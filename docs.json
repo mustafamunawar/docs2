@@ -6,13 +6,22 @@
     "primary": "#0D9373"
   },
   "navigation": {
-    "groups": [
+    "dropdowns": [
       {
-        "group": "Getting Started",
-        "icon": "accent-grave",
-        "pages": [
-          "pg1",
-          "pg2"
+        "dropdown": "Untitled Dropdown",
+        "tabs": [
+          {
+            "tab": "Untitled Tab",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "icon": "accent-grave",
+                "pages": [
+                  "pg1"
+                ]
+              }
+            ]
+          }
         ]
       }
     ]
